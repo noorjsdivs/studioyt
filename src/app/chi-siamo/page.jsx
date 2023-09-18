@@ -1,4 +1,3 @@
-import contactsection from "@/components/contactsection";
 import Container from "@/components/Container";
 import Cultures from "@/components/Cultures";
 import PageIntro from "@/components/PageIntro";

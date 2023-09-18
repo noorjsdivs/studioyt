@@ -1,5 +1,4 @@
 import SetCucina from "@/components/SetCucina";
-import contactsection from "@/components/contactsection";
 import DietroLeQuinte from "@/components/DietroLeQuinte";
 import MainSet from "@/components/MainSet";
 import PageIntro from "@/components/PageIntro";
