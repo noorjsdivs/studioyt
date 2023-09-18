@@ -13,8 +13,8 @@ const ContactSection = () => {
             Tell us about your project
           </h2>
           <div className="mt-6 flex">
-            <Button href={"/contact"} invert>
-              Say Hello
+            <Button href={"/contatti"} invert>
+              Contattaci
             </Button>
           </div>
           <div className="mt-10 border-t border-white/10 pt-10">
