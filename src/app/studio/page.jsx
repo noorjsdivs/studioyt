@@ -1,5 +1,5 @@
 import Build from "@/components/Build";
-import ContactSection from "@/components/ContactSection";
+import contactsection from "@/components/contactsection";
 import Deliver from "@/components/Deliver";
 import Discover from "@/components/Discover";
 import PageIntro from "@/components/PageIntro";
@@ -26,7 +26,7 @@ const ProcessPage = () => {
       </div>
       {/* Values */}
       <Values />
-      <ContactSection />
+      <contactsection />
     </>
   );
 };

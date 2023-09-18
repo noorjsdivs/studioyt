@@ -1,4 +1,4 @@
-import ContactSection from "@/components/ContactSection";
+import contactsection from "@/components/contactsection";
 import Container from "@/components/Container";
 import Cultures from "@/components/Cultures";
 import PageIntro from "@/components/PageIntro";
@@ -8,7 +8,7 @@ import React from "react";
 const AboutPage = () => {
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="Chi siamo" title="Dal pensiero alla forma">
         <p>
           We believe that our strength lies in our collaborative approach, which
           puts our clients at the center of everything we do.
@@ -36,7 +36,7 @@ const AboutPage = () => {
         </StatList>
       </Container>
       <Cultures />
-      <ContactSection />
+      <contactsection />
     </>
   );
 };

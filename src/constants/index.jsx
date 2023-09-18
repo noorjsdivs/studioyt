@@ -2,15 +2,15 @@ import { SocialMediaProfiles } from "@/components/SocialMedia";
 
 export const navigation = [
   {
-    title: "Work",
+    title: "Progetti",
     links: [
-      { title: "Amazon Clone", href: "/work/amazonclone" },
-      { title: "Bazar e-commerce", href: "/work/bazar" },
-      { title: "Blog 101", href: "/work/blog101" },
+      { title: "progetto 1", href: "/work/progetto1" },
+      { title: "progetto 2", href: "/work/progetto2" },
+      { title: "progetto 3", href: "/work/progetto3" },
       {
         title: (
           <>
-            See all <span aria-hidden="true">&rarr;</span>
+            Vedi tutti <span aria-hidden="true">&rarr;</span>
           </>
         ),
         href: "/work",
@@ -18,12 +18,12 @@ export const navigation = [
     ],
   },
   {
-    title: "Company",
+    title: "Tulpa Studio",
     links: [
-      { title: "About", href: "/about" },
-      { title: "Process", href: "/process" },
-      { title: "Blog", href: "/blog" },
-      { title: "Contact us", href: "/contact" },
+      { title: "Chi siamo", href: "/chi-siamo" },
+      { title: "Studio", href: "/studio" },
+      { title: "Rental", href: "/rental" },
+      { title: "contacts", href: "/contacts" },
     ],
   },
   {
