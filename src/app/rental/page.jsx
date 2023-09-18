@@ -3,10 +3,9 @@ import PageIntro from "@/components/PageIntro";
 const BlogPage = () => {
   return (
     <>
-      <PageIntro eyebrow="Blog" title="The latest articles and news">
+      <PageIntro eyebrow="Rental" title="Ottieni un preventivo in base all'attrezzatura di cui hai bisogno">
         <p>
-          Stay up-to-date with the latest industry news as our marketing teams
-          finds new ways to re-purpose old CSS tricks articles.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minus perspiciatis, maiores nostrum error quo exercitationem consequatur natus illum ipsa vitae molestias at amet praesentium repudiandae delectus totam nobis esse!
         </p>
       </PageIntro>
     </>

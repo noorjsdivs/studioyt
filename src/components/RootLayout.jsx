@@ -30,7 +30,7 @@ const Header = ({
           <Logo invert={invert}>Tulpa Studio</Logo>
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href={"/contact"} invert={invert}>
+          <Button href={"/contatti"} invert={invert}>
             Contattaci
           </Button>
           <button

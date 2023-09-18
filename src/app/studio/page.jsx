@@ -1,7 +1,7 @@
-import Build from "@/components/Build";
+import SetCucina from "@/components/SetCucina";
 import contactsection from "@/components/contactsection";
-import Deliver from "@/components/Deliver";
-import Discover from "@/components/Discover";
+import DietroLeQuinte from "@/components/DietroLeQuinte";
+import MainSet from "@/components/MainSet";
 import PageIntro from "@/components/PageIntro";
 import Values from "@/components/Values";
 import React from "react";
@@ -9,24 +9,22 @@ import React from "react";
 const ProcessPage = () => {
   return (
     <>
-      <PageIntro eyebrow="Our process" title="How we work">
+      <PageIntro title="Lo studio">
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias molestiae quidem tempore necessitatibus inventore esse! Inventore temporibus ex corrupti enim doloribus vero dolorem odio illum, accusantium voluptatibus debitis. Vel, provident?
         </p>
       </PageIntro>
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
         {/* Discover */}
-        <Discover />
+        <MainSet />
         {/* Build */}
-        <Build />
+        <SetCucina />
         {/* Deliver */}
-        <Deliver />
+        <DietroLeQuinte />
       </div>
       {/* Values */}
       <Values />
-      <contactsection />
+
     </>
   );
 };
