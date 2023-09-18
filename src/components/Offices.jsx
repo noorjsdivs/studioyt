@@ -23,7 +23,7 @@ const Offices = ({ invert = false, ...props }) => {
       <Office name="Ferrara" invert={invert}>
         Vigarano Mainarda
         <br />
-        Via dell&apos; artigianato 5B
+        Via dell artigianato 5B
       </Office>
     </div>
   );
