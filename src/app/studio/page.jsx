@@ -1,9 +1,11 @@
 import SetCucina from "@/components/SetCucina";
+import contactsection from "@/components/contactsection";
 import DietroLeQuinte from "@/components/DietroLeQuinte";
 import MainSet from "@/components/MainSet";
 import PageIntro from "@/components/PageIntro";
 import Values from "@/components/Values";
 import React from "react";
+import ContactSection from "@/components/contactsection";
 
 const ProcessPage = () => {
   return (
@@ -23,7 +25,7 @@ const ProcessPage = () => {
       </div>
       {/* Values */}
       <Values />
-
+      <ContactSection />
     </>
   );
 };

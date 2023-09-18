@@ -4,7 +4,7 @@ import FadeIn from "./FadeIn";
 import Button from "./Button";
 import Offices from "./Offices";
 
-const contactsection = () => {
+const ContactSection = () => {
   return (
     <Container className="mt-24 sm:mt-32 lg:mt-40">
       <FadeIn className="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
@@ -32,4 +32,4 @@ const contactsection = () => {
   );
 };
 
-export default contactsection;
+export default ContactSection;

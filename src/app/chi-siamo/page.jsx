@@ -1,5 +1,6 @@
 import Container from "@/components/Container";
 import Cultures from "@/components/Cultures";
+import ContactSection from "@/components/ContactSection";
 import PageIntro from "@/components/PageIntro";
 import { StatList, StatListItem } from "@/components/StatList";
 import React from "react";
@@ -28,7 +29,7 @@ const AboutPage = () => {
         </StatList>
       </Container>
       <Cultures />
-      <contactsection />
+      <ContactSection />
     </>
   );
 };
