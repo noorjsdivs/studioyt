@@ -18,7 +18,6 @@ const ContactPage = () => {
         <div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
           <ContactForm />
           <ContactDetails />
-
         </div>
       </Container>
     </>
