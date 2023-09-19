@@ -3,6 +3,11 @@ import FadeIn from "@/components/FadeIn";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title: 'Tulpa Studio | 404',
+  description: 'Pagina non trovata.',
+}
+
 const NotFound = () => {
   return (
     <Container className="flex h-full items-center pt-20 sm:pt-24 lg:pt-32">
