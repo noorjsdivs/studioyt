@@ -1,12 +1,7 @@
 import RootLayout from "@/components/RootLayout";
 import "./globals.css";
 
-export const metadata = {
-  title: {
-    template: "blog_app",
-    default: "Personal Blog - A feature to make you famous",
-  },
-};
+
 
 export default function Layout({ children }) {
   return (

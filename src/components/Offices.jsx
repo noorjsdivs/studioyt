@@ -19,22 +19,13 @@ function Office({ name, children, invert = false }) {
 
 const Offices = ({ invert = false, ...props }) => {
   return (
-    <ul role="list" {...props}>
-      <li>
-        <Office name="U.S.A" invert={invert}>
-          on bay mark
-          <br />
-          Newtown city of Las Vegas
-        </Office>
-      </li>
-      <li>
-        <Office name="London" invert={invert}>
-          13 long Street
-          <br />
-          Downtown, Allyway
-        </Office>
-      </li>
-    </ul>
+    <div role="list" {...props}>
+      <Office name="Ferrara" invert={invert}>
+        Vigarano Mainarda
+        <br />
+        Via dell artigianato 5B
+      </Office>
+    </div>
   );
 };
 
