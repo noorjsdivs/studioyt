@@ -5,6 +5,7 @@ import PageIntro from "@/components/PageIntro";
 import { StatList, StatListItem } from "@/components/StatList";
 import React from "react";
 
+
 const AboutPage = () => {
   return (
     <>
