@@ -1,6 +1,11 @@
 import PageIntro from "@/components/PageIntro";
 
-const BlogPage = () => {
+export const metadata = {
+  title: 'Tulpa Studio | Rental',
+  description: 'Sfoglia il catalogo con le varie attrezzature disponibili e trova la soluzione che fa al caso tuo.',
+}
+
+const RentalPage = () => {
   return (
     <>
       <PageIntro eyebrow="Rental" title="Ottieni un preventivo in base all'attrezzatura di cui hai bisogno">
@@ -12,4 +17,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default RentalPage;

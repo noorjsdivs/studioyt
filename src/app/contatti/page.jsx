@@ -3,6 +3,11 @@ import ContactForm from "@/components/ContactForm";
 import Container from "@/components/Container";
 import PageIntro from "@/components/PageIntro";
 
+export const metadata = {
+  title: 'Tulpa Studio | Contatti',
+  description: 'Inizia a collaborare con Tulpa e mettiti subito in contatto con loro!',
+}
+
 const ContactPage = () => {
   return (
     <>

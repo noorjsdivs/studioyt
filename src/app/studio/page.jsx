@@ -6,7 +6,12 @@ import Values from "@/components/Values";
 import React from "react";
 import ContactSection from "@/components/ContactSection";
 
-const ProcessPage = () => {
+export const metadata = {
+  title: 'Tulpa Studio | Studio',
+  description: 'Scopri lo studio che Tulpa ti mette a disposizione per la realizzazione dei tuoi progetti.',
+}
+
+const StudioPage = () => {
   return (
     <>
       <PageIntro title="Lo studio">
@@ -29,4 +34,4 @@ const ProcessPage = () => {
   );
 };
 
-export default ProcessPage;
+export default StudioPage;

@@ -1,7 +1,12 @@
 import PageIntro from "@/components/PageIntro";
 import React from "react";
 
-const WorkPage = () => {
+export const metadata = {
+  title: 'Tulpa Studio | Portfolio',
+  description: 'Esplora i progetti di Tulpa Studio e scopri cosa sono in grado di realizzare.',
+}
+
+const PortfolioPage = () => {
   return (
     <>
       <PageIntro
@@ -16,4 +21,4 @@ const WorkPage = () => {
   );
 };
 
-export default WorkPage;
+export default PortfolioPage;

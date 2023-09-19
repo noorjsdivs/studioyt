@@ -5,6 +5,10 @@ import PageIntro from "@/components/PageIntro";
 import { StatList, StatListItem } from "@/components/StatList";
 import React from "react";
 
+export const metadata = {
+  title: 'Tulpa Studio | Chi siamo',
+  description: 'Scopri la storia di tulpa studio e il metodo di lavoro che adotta.',
+}
 
 const AboutPage = () => {
   return (

@@ -1,12 +1,7 @@
 import RootLayout from "@/components/RootLayout";
 import "./globals.css";
 
-export const metadata = {
-  title: {
-    template: "Tulpa-Studio",
-    default: "Tulpa Studio",
-  },
-};
+
 
 export default function Layout({ children }) {
   return (
